@@ -1,6 +1,8 @@
 require 'pry'
 
 class String
+  ("Hi, my name is Sophie.".sentence?)
+  => true 
 
   def sentence?
     
