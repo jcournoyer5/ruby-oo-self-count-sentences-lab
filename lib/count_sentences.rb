@@ -4,14 +4,16 @@ class String
  @string = String
 
   def sentence? 
-   if String.end_with?(".")
-  puts true 
+   if @string.end_with?(".")
+   puts true 
+   elseif
+   puts false
     
    end
   end
 
   def question?
-   if String.end_with?("?")
+   if @string.end_with?("?")
    puts true
 
    end
