@@ -1,17 +1,21 @@
-require 'pry'
+
 
 class String
+ @string = String
 
   def sentence? 
-   if string.end_with?(".")
+   if String.end_with?(".")
   puts true 
     
    end
   end
 
   def question?
+   if String.end_with?("?")
+   puts true
 
-  end
+   end
+  end 
 
   def exclamation?
 
