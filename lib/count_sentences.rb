@@ -1,7 +1,9 @@
 
 
 class String
- @string = String
+ def initialize(string)
+ @string = string
+ end
 
   def sentence? 
    if self.end_with?(".")
