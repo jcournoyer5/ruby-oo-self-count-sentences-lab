@@ -4,7 +4,7 @@ class String
  @string = String
 
   def sentence? 
-   if @string.end_with?(".")
+   if self.end_with?(".")
    puts true 
    elseif
    puts false
@@ -13,7 +13,7 @@ class String
   end
 
   def question?
-   if @string.end_with?("?")
+   if self.end_with?("?")
    puts true
 
    end
