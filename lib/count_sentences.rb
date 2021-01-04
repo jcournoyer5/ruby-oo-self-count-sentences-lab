@@ -36,9 +36,6 @@ class String
   end
 
   def count_sentences
-   @string = ("one. two. three?")
-   self.count
-  # return
-
+   self.split(/[.?!]+/).count
   end
 end
