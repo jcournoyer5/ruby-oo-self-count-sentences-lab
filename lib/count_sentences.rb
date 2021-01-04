@@ -27,7 +27,7 @@ class String
 
   def exclamation?
    @string == ("Hi, my name is Sophie!")
-   if self.edn_with?("!")
+   if self.end_with?("!")
     return true
    else
     return false
