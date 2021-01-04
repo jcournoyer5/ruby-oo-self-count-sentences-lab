@@ -1,9 +1,9 @@
 
 
 class String
- def initialize(string)
- @string = string
- end
+# def initialize(string)
+ #@string = string
+# end
 
   def sentence? 
    @string = ("Hi, my name is Sophie.".sentence)
