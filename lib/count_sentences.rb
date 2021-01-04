@@ -9,8 +9,8 @@ class String
    @string == ("Hi, my name is Sophie.")
    if self.end_with?(".")
    return true 
-   elsif
-   false
+   else
+   return false
     
    end
   end
