@@ -37,7 +37,7 @@ class String
 
   def count_sentences
    @string = ("one. two. three?")
-   #self.count_sentences
+   self.count
   # return
 
   end
