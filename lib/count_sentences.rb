@@ -8,9 +8,9 @@ class String
   def sentence? 
    @string == ("Hi, my name is Sophie.")
    if self.end_with?(".")
-   puts true 
+   return true 
    elsif
-   puts false
+   return false
     
    end
   end
