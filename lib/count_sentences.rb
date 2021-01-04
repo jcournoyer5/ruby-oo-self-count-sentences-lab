@@ -26,10 +26,18 @@ class String
   end 
 
   def exclamation?
+   @string == ("Hi, my name is Sophie!")
+   if self.edn_with?("!")
+    return true
+   else
+    return false
+   end
 
   end
 
   def count_sentences
+   @string = ("one. two. three?")
+   self.count_sentences
 
   end
 end
