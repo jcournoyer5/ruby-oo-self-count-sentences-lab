@@ -16,8 +16,11 @@ class String
   end
 
   def question?
+   @string == ("What's your name?")
    if self.end_with?("?")
-   puts true
+   return true
+   else
+   return false
 
    end
   end 
