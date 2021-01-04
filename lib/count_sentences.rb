@@ -6,7 +6,7 @@ class String
 # end
 
   def sentence? 
-   @string = ("Hi, my name is Sophie.".sentence?)
+   @string = ("Hi, my name is Sophie.")
    if self.end_with?(".")
    puts true 
    elsif
